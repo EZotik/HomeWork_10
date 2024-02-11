@@ -17,7 +17,6 @@ public class YahooWebTest {
 
     @BeforeEach
     void setUp(){
-        Configuration.holdBrowserOpen = true;
         Configuration.pageLoadStrategy = "eager";
         open("https://ru.search.yahoo.com/");
 
